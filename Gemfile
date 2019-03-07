@@ -67,4 +67,5 @@ gem 'kaminari'
 gem 'devise'
 gem 'cancancan'
 gem 'rails_admin'
-
+gem 'bootstrap-sass', '~> 3.1.1'
+gem "jquery-rails"
