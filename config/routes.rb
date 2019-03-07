@@ -5,7 +5,11 @@ Rails.application.routes.draw do
   resources :tweets do
     resources :comments, only: [:create]
   end
-  resources :users, only: [:show]
+  resources :users, only: [:show] do
+    collection do
+      get 'search'
+    end
+  end
   post   '/like/:tweet_id' => 'likes#like',   as: 'like'
   delete '/like/:tweet_id' => 'likes#unlike', as: 'unlike'
 end

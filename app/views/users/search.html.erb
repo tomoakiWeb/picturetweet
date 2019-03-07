@@ -1,0 +1,16 @@
+<div class="search-content">
+  <%= form_tag('/users/search', method: :get) do %>
+    <input class="search__query" name="keyword" placeholder="ユーザー名で検索" type="text" value=""><button class="btn-search" nickname="検索" type="submit">検索<i class="icon-search"></i></button></input>
+    <% end %>
+  </form>
+  <article class="section">
+    <div class="container">
+      <h3>ユーザー一覧</h3>
+      <% @users.each do |user| %>
+        <a class="listview__element--right-icon" href="/users/<%= user.id %>" nickname="<%= user.nickname %>">
+          <div class="thumbnail__figure" " nickname="<%= user.nickname %>">
+        </div>
+        <span class="color-sub"><%= user.nickname %></span>
+     <% end %>
+  </article>
+</div>

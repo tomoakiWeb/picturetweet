@@ -17,6 +17,7 @@ class LikesController < ApplicationController
     @tweet = Tweet.find(params[:tweet_id])
     @id_name = "#like-link-#{@tweet.id}"
     @id_heart = "#heart-#{@tweet.id}"
+    @user = current_user
   end
 
 end

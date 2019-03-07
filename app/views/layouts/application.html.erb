@@ -24,7 +24,7 @@
   <body>
    <header class="header">
     <div class="header__bar row">
-      <h1 class="grid-6"><a href="/">PicTweet</a></h1>
+      <h1 class="grid-6"><a href="/">PictureTweet</a></h1>
       <% if user_signed_in? %>
         <div class="user_nav grid-6">
           <span><%= current_user.nickname %>
@@ -32,6 +32,7 @@
               <li>
                 <a href="/users/<%= current_user.id %>">マイページ</a>
                 <%= link_to "ログアウト", destroy_user_session_path, method: :delete %>
+                <%= link_to "検索", search_users_path %>
               </li>
             </ul>
           </span>
@@ -49,7 +50,7 @@
 
     <footer>
       <p>
-        Copyright PicTweet 2014.
+        Copyright PictureTweet 2019.
       </p>
     </footer>
   </body>
