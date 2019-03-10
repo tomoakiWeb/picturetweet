@@ -50,6 +50,10 @@ group :development do
   gem 'spring-watcher-listen', '~> 2.0.0'
 end
 
+group :production do
+  gem 'unicorn', '5.4.1'
+end
+
 group :test do
   # Adds support for Capybara system testing and selenium driver
   gem 'capybara', '>= 2.15'
@@ -70,3 +74,4 @@ gem 'rails_admin'
 gem "jquery-rails"
 gem 'better_errors'
 gem "binding_of_caller"
+
