@@ -8,5 +8,6 @@ class User < ApplicationRecord
   has_many :likes, dependent: :destroy
   has_many :like_tweets, through: :likes, source: :tweet
 
+  validates :nickname, presence: true, length: { maximum: 6 }
 
 end
