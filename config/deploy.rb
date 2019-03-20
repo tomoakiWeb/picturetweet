@@ -2,7 +2,7 @@
 lock "~> 3.11.0"
 
 set :application, "picturetweet"
-set :repo_url, "git@example.com:tomoakimiura/picturetweet.git"
+set :repo_url, "git@github.com:tomoakimiura/picturetweet.git"
 
 
 # config valid only for current version of Capistrano
