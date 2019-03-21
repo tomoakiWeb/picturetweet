@@ -12,6 +12,6 @@ CarrierWave.configure do |config|
     region: 'ap-northeast-1'
   }
 
-  config.fog_directory  = 'tomoakipacket'
+  config.fog_directory  = 'picturetweet-upload'
   config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/picturetweet-upload'
 end
