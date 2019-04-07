@@ -14,3 +14,14 @@ twitterライクなwebアプリです。
 * ユーザーメールアドレス test01@gmail.com
 * パスワード test01
 * URL  http://52.68.8.136/
+
+その他の成果物
+メルカリのクローンアプリ(チーム開発)
+* URL http://13.113.140.140/
+* ID: admin password: XA8Ksk)6m.bw
+* テスト用メールアドレス techexpert46c@test.com
+* テスト用パスワード techexpert46c
+
+Djangoを用いたブログアプリ
+
+
