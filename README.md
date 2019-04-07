@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+twitterライクなwebアプリです。
 
-Things you may want to cover:
+機能一覧
+*投稿、編集、表示などの一般的な機能
+*コメント機能
+*いいね機能(非同期通信)
+*検索機能
+*管理者機能
+*AWSによるデプロイ
+* Capistranoによる自動デプロイ
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+ユーザーメールアドレス test01@gmail.com
+パスワード test01
+URL  http://52.68.8.136/
