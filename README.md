@@ -17,12 +17,12 @@ twitterライクなwebアプリです。
 
 その他の成果物
 
-メルカリのクローンアプリ(チーム開発)
+メルカリのクローンアプリ(チーム開発) YKKISKW/freemarket_sample_46c
 * URL http://13.113.140.140/
 * ID: admin password: XA8Ksk)6m.bw
 * テスト用メールアドレス techexpert46c@test.com
 * テスト用パスワード techexpert46c
 
-Djangoを用いたブログアプリ
+Djangoを用いたブログアプリ tomoakimiura/micro_blog
 
 
