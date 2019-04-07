@@ -3,6 +3,6 @@ FactoryBot.define do
     nickname              {"abc"}
     password              {"00000000"}
     password_confirmation {"00000000"}
-    sequence(:email) {Faker::Internet.email}
+    email                 {"test@gmail.com"}
   end
 end
